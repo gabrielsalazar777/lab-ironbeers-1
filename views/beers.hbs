@@ -1,0 +1,9 @@
+<div class="bi-loop">
+    {{#each beers}}
+    <a href="/beer/{{this.id}}">
+    {{> beerpartials}}
+    </a>
+    {{else}}
+    <p>No beer to show</p>
+    {{/each}}
+</div>
